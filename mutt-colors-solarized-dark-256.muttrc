@@ -94,7 +94,7 @@ color normal        color244        color234
 
 # emoticons
 color body          color136        color234        " [}O]?[;:]-?[})>{(<|/oODPpSs*]" # emoticons
-color body          color136        color234        "[*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*]?"
+color body          color136        color234        " [*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*.,!?)]?"
 
 # pgp
 color body          color160        color234        "(BAD signature)"
@@ -112,4 +112,4 @@ color body          color61         color234        "([a-z][a-z0-9+-]*://(((([a-
 color body          color125         color234        "((@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]),)*@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]):)?[0-9a-z_.+%$-]+@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\])"
 
 # border lines.
-color body          color136         color234        "([-+=#*~_]){6,}"
+color body          color136         color234        "([-+=#*~_]){4,}"

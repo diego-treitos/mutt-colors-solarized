@@ -94,7 +94,7 @@ color normal        default         default
 
 # emoticons
 color body          yellow          default         " [}O]?[;:]-?[})>{(<|/oODPpSs*]" # emoticons
-color body          yellow          default         "[*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*]?"
+color body          yellow          default         " [*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*.,!?)]?"
 
 # pgp
 color body          red             default         "(BAD signature)"
@@ -112,4 +112,4 @@ color body          brightmagenta   default         "([a-z][a-z0-9+-]*://(((([a-
 color body          magenta          default         "((@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]),)*@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]):)?[0-9a-z_.+%$-]+@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\])"
 
 # border lines.
-color body          yellow           default         "([-+=#*~_]){6,}"
+color body          yellow           default         "([-+=#*~_]){4,}"

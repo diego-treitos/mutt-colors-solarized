@@ -94,7 +94,7 @@ color normal        J_fg            J_bg
 
 # emoticons
 color body          J_yellow        J_bg            " [}O]?[;:]-?[})>{(<|/oODPpSs*]" # emoticons
-color body          J_yellow        J_bg            "[*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*]?"
+color body          J_yellow        J_bg            " [*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*.,!?) ]"
 
 # pgp
 color body          J_red           J_bg            "(BAD signature)"
@@ -112,4 +112,4 @@ color body          J_violet        J_bg            "([a-z][a-z0-9+-]*://(((([a-
 color body          J_magenta        J_bg            "((@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]),)*@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\.[0-9]?[0-9]?[0-9]\\]):)?[0-9a-z_.+%$-]+@(([0-9a-z-]+\\.)*[0-9a-z-]+\\.?|#[0-9]+|\\[[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\.[0-2]?[0-9]?[0-9]\\])"
 
 # border lines.
-color body          J_yellow         J_bg            "([-+=#*~_]){6,}"
+color body          J_yellow         J_bg            "([-+=#*~_]){4,}"
