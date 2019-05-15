@@ -74,6 +74,16 @@ color index_subject J_base3         J_red           "~v~(~D)"                   
 #color index         J_orange        J_red           "~="                        # duplicated messages
 
 
+# sidebar --------------------------------------------------------------
+color sidebar_divider 	  J_fg            J_bg                                   # the dividing line between the Sidebar and the Index/Pager panels
+color sidebar_flagged     J_base0         J_bg                                   # mailboxes containing flagged mail
+color sidebar_highlight   J_base2         J_base02                               # cursor to select a mailbox
+#color sidebar_indicator                                                        # the mailbox open in the Index panel
+color sidebar_new         J_cyan          J_bg                                   # mailboxes containing new mail
+color sidebar_ordinary    J_base01        J_bg                                   # mailboxes that have no new/flagged mails, etc.
+#color sidebar_spoolfile                                                        # mailbox that receives incoming mail
+
+
 # message headers ------------------------------------------------------
 color hdrdefault    J_base01        J_bg            
 color header        J_base00        J_bg            "^(From)"

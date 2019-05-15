@@ -74,6 +74,16 @@ color index_subject brightblack     red             "~v~(~D)"                   
 #color index         brightred       red             "~="                        # duplicated messages
 
 
+# sidebar --------------------------------------------------------------
+color sidebar_divider 	  default         default                                # the dividing line between the Sidebar and the Index/Pager panels
+color sidebar_flagged     brightyellow    default                                # mailboxes containing flagged mail
+color sidebar_highlight   black           white                                  # cursor to select a mailbox
+#color sidebar_indicator                                                        # the mailbox open in the Index panel
+color sidebar_new         cyan            default                                # mailboxes containing new mail
+color sidebar_ordinary    brightcyan      default                                # mailboxes that have no new/flagged mails, etc.
+#color sidebar_spoolfile                                                        # mailbox that receives incoming mail
+
+
 # message headers ------------------------------------------------------
 color hdrdefault    brightcyan      default         
 color header        brightblue      default         "^(From)"
@@ -94,7 +104,7 @@ color normal        default         default
 
 # emoticons
 color body          yellow          default         " [}O]?[;:]-?[})>{(<|/oODPpSs*]" # emoticons
-color body          yellow          default         " [*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*.,!?)]?"
+color body          yellow          default         " [*]?((N)?ACK|CU|LOL|SCNR|BRB|BTW|CWYL|FWIW|vbg|GD&R|HTH|HTHBE|IMHO|IMNSHO|IRL|RTFM|ROTFL|ROFL|YMMV)[*.,!?) ]"
 
 # pgp
 color body          red             default         "(BAD signature)"
